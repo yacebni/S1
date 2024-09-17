@@ -37,7 +37,7 @@ const Home = () => {
         <section id="home">
             <div className="intro">
                 <div className="profile-pic">
-                    <img src={yacinec} alt="Profile" />
+                    <img src={yacine} alt="Profile" />
                 </div>
                 <div className="presentation">
                     <h2>Bienvenue sur mon Portfolio</h2>
