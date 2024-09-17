@@ -1,0 +1,113 @@
+/* src/components/Contact.css */
+#contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#contact form {
+    display: inline-block;
+    text-align: left;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button[type="submit"] {
+    display: inline-block;
+    background-color: transparent;
+    color: #007bff;
+    padding: 0.5rem 1rem;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.contact-buttons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.contact-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Align contents to the start */
+    position: relative;
+    background-color: transparent;
+    color: #007bff;
+    padding: 0.5rem 0.7rem;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-buttons button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.contact-buttons .icon-container {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem; /* Adjust the margin to create space between icon and text */
+}
+
+.contact-buttons .icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-right: 0.5rem;
+    align-items: flex-start/* Adjust the margin to create space between icon and text */
+
+}
+
+.contact-buttons .default-icon {
+    opacity: 1;
+}
+
+.contact-buttons .hover-icon {
+    opacity: 0;
+}
+
+.contact-buttons button:hover .default-icon {
+    opacity: 0;
+}
+
+.contact-buttons button:hover .hover-icon {
+    opacity: 1;
+}
+
+.contact-buttons button span {
+    margin-left: 1rem;
+}

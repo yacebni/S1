@@ -1,0 +1,171 @@
+.project-details-page {
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.project-screenshot-details {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-details-page h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.project-details-page p {
+    font-size: 1.2rem;
+    margin: 0 auto 1.5rem auto;
+    color: #555;
+    max-width: 800px;
+}
+
+.languages-list {
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.languages-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.language-logo {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+}
+
+.language-logo:hover {
+    transform: scale(1.1);
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+}
+
+.back-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border-color: #007bff;
+}
+
+.back-skills-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    border-color: #007bff;
+}
+
+.back-link {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    color: #007bff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-link:hover {
+    background-color: #007bff;
+    transform: translateY(-2px);
+    color: white;
+}
+
+.back-left-icon {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.back-right-icon {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.competency-link {
+    text-decoration: none;
+    color: #555555;
+    font-weight: bold;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.competency-link:hover {
+    color: #007bff;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.competency-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.competency-item {
+    margin: 1rem;
+    max-width: 200px;
+    text-align: center;
+}
+
+.sub-competencies-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-competency-item {
+    margin-bottom: 0.3rem;
+    word-wrap: break-word;
+    white-space: pre-line;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 500px) {
+    .back-button,
+    .back-skills-button {
+        display: none;
+    }
+}
+
